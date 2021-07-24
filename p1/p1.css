@@ -1,0 +1,73 @@
+body {
+  background: #f2f2f2;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  display: flex;
+  list-style: none;
+}
+
+.tag li {
+  padding: 4px 12px;
+  background: #D5DFE3;
+  color: #62808F;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.article-wrapper {
+  border-top: 4px solid #00a0e9;
+}
+
+.article-block {
+  background: white;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  padding: 20px;
+}
+
+.article-block-left {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.article-number-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+.active {
+  color: black;
+}
+
+.article-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.article-author{
+  text-decoration: none;
+  color: #00a0e9;
+}
+
+
+/*
+背景那個灰色色碼為 #F2F2F2
+藍色色碼為 #00a0e9
+整體寬度為 800px
+右上角按鈕背景色為 #D5DFE3 ，文字顏色為 #62808F
+*/
